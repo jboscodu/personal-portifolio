@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <img src="image/help.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Potifolio</a></li>
+                    <li><a href="#">Contact</a></li>
+               </ul>
+
+            </nav>
+            
+            <div class="header-text">
+                <div>
+                <p>UI/UX  Designer</p>
+            </div>
+               <div> <h1> Hi, I'm <span>Jean </span><br>BOSCO From RWANDA </h1></div>
+                <nav id="igo">
+            <img  class="vafa" src="image/IMG_9324_Original.jpg"> 
+            
+            
+        </nav>
+        </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="img1" src="image/pexels-josh-hild-2422497.jpg" alt="nigaa">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>Jean Bosco Dushimimana , from Nyanza district students at UR-Rwamagana , shareholder in CMBCL(Cinque Magique Groupe Company Limited  ), sport Minister in Rwamagana Campus.</p>
+                <div class="tab-titles">
+                    <p class="igoo act " onclick="opentab('skills')">Skills</p>
+                    <p class="igoo" onclick="opentab('Experience')">Experience</p>
+                    <p class="igoo" onclick="opentab('Education')">Education</p>
+
+                </div>
+                <div class="tab-contents yigo" id="skills">
+                    <ul>
+                        <li><span>software</span><br>Designing Web?app interfaces</li>
+                        <li><span>society</span><br>Leadership skills, communication and organisation skills </li>
+                        <li><span>App Development</span><br>Building android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022-current</span><br>Ministery incharge of sports cultures at university of Rwamagana</li>
+                        <li><span>2021-current</span><br> a counsellor and a member 0f Cinque Magique Company Limited</li>
+                        <li><span>2019-2021</span><br>a patron at Groupe scolaire saint Phillipe Neri Gisagara</li>
+                        <li><span>2019-2019</span><br> president of J.E.C(jeunessse Estudiantine Catholique) and dinning hall at Minor seminary Virgo Fidelis</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2021-current </span><br>University of Rwanda/ CMHS/ BSc. With Honors in General  Nursing</li>
+                        <li><span>2017-2019</span><br>Advanced Level in MCB(Mathematics-Chemistry-Biology) at Minor Seminary Virgo Fidelis De Butare</li>
+                        <li><span>2014-2016</span><br>Ordinary Level at Minor Seminary Virgo Fidelis De Butare</li>
+                        <li><span>2008-2013</span><br>2008-2013: Primary School at Groupe Scolaire Marie Reine De La Paix (NYANZA B)</li>
+                        
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub"A</h1></h1>
+            
+               
+        </div>
+    </div>
+    <script>
+         var tablecontents =document.getElementsByClassName("tab-contents");
+         var igoo=document.getElementsByClassName("igoo");
+         function opentab(tabname){
+            for(igoo of igoo){
+                igoo.classList.remove("act")
+            }
+            for(tablecontents of tablecontents){
+                tablecontents.classList.remove("yigo");
+            }
+        event.currentTarget.classList.add("act");
+        document.getElementById(tabname).classList.add("yigo")
+         }
+  </script>
+</body>
+</html>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </li>
+                    </ul>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
